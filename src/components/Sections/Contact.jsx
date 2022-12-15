@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
 
 export default function Contact() {
   return (
@@ -86,11 +83,11 @@ const ButtonInput = styled.input`
     margin: 0 auto;
   }
 `;
-const ContactImgBox = styled.div`
-  max-width: 180px; 
-  align-self: flex-end; 
-  margin: 10px 30px 10px 0;
-`;
+// const ContactImgBox = styled.div`
+//   max-width: 180px; 
+//   align-self: flex-end; 
+//   margin: 10px 30px 10px 0;
+// `;
 const SumbitWrapper = styled.div`
   @media (max-width: 991px) {
     width: 100%;
